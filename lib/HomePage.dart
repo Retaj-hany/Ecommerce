@@ -38,7 +38,7 @@ class _homePageState extends State<homePage> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color.fromARGB(255, 216, 164, 251),
         centerTitle: true,
       ),
 
@@ -72,7 +72,7 @@ class _homePageState extends State<homePage> {
             setState(() {});
           });
         },
-        child: Icon(Icons.shopping_cart, color: Colors.teal),
+        child: Icon(Icons.shopping_cart, color: const Color.fromARGB(255, 82, 88, 239)),
       ),
     );
   }

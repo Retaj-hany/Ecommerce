@@ -24,7 +24,7 @@ class _CustomWidgetState extends State<CustomWidget> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(p.icon, size: 70, color: Colors.teal),
+          Icon(p.icon, size: 70, color: const Color.fromARGB(255, 63, 46, 248)),
           Text(
             p.name,
             style: TextStyle(fontWeight: FontWeight.bold),
@@ -49,10 +49,10 @@ class _CustomWidgetState extends State<CustomWidget> {
               }
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: added ? Colors.redAccent : Colors.teal,
+              backgroundColor: added ? const Color.fromARGB(255, 175, 241, 144) : const Color.fromARGB(255, 156, 202, 250),
               foregroundColor: Colors.white,
             ),
-            child: Text(added ? "Added ✓" : "Add to Cart"),
+            child: Text(added ? "Added ✓" : "Add to Cart",style: TextStyle(color: Colors.black),),
           ),
         ],
       ),

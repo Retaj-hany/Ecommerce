@@ -30,7 +30,7 @@ class _cartPageState extends State<cartPage> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.teal,
+        backgroundColor: const Color.fromARGB(255, 216, 164, 251),
         centerTitle: true,
       ),
 
@@ -49,7 +49,7 @@ class _cartPageState extends State<cartPage> {
                     leading: Icon(
                       p.icon,
                       size: 40,
-                      color: Colors.teal,
+                      color: const Color.fromARGB(255, 82, 88, 239),
                     ),
 
                     title: Text(
@@ -104,7 +104,7 @@ class _cartPageState extends State<cartPage> {
             width: double.infinity,
             height: 50,
             decoration: BoxDecoration(
-              color: Colors.teal,
+              color:const Color.fromARGB(255, 216, 164, 251),
             ),
             child: Center(
               child: Text(
